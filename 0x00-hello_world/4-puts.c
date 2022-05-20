@@ -1,4 +1,5 @@
-#includ < studio.h >
+#include < studio.h >
+#include < string.h >
 /**
  * put - Entry point
  *
