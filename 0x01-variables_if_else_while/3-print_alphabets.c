@@ -10,11 +10,15 @@ int main(void)
 {
 	int x;
 
-	for (x = 'a'; x <= 'z'; x++)
+	for  (x = 'a'; x <= 'z'; x++)
 	{
 		putchar (x);
-		x = toupper(x);
-		putchar (x);
 	}
+	  for  (x = 'A'; x <= 'Z'; x++)
+        {
+                putchar (x);
+        }
+
+	putchar ('\n');
 	return (0);
 }
