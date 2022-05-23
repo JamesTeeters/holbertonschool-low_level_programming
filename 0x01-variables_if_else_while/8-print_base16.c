@@ -7,6 +7,14 @@
  */
 int main(void)
 {
+	int x;
+
+	for (x = 0; x <= 15; x++)
+	{
+		putchar (x);
+		putchar("%x");
+	}
+	putchar ('\n');
 
 	return (0);
 }
