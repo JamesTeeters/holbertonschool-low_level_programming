@@ -7,6 +7,12 @@
  */
 int main(void)
 {
+	int x;
+
+	for (x = 'a'; x <= 'z' && x < 'e' || x > 'e' || x < 'q' || x > 'q'; x++)
+	{
+		putchar (x);
+	}
 
 	return (0);
 }
