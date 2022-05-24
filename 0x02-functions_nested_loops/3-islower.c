@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * _islower - Entry point
+ *
+ * @c: is input
  *
  * Return: Always 0 (Success)
  */
