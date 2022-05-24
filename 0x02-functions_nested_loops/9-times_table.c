@@ -1,10 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
+ * times_table - Entry point
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void times_table(void)
 {
-    return (0);
 }
