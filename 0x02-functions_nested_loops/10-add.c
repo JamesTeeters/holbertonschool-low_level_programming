@@ -1,10 +1,14 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * add - Entry point
+ *
+ * @a: input 1
+ * @b: input 2
  *
  * Return: Always 0 (Success)
  */
-int add(int a, int b)
-    return (0);
+int add(int, int)
+{
+	return (0);
 }

@@ -1,10 +1,13 @@
+#include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point
+ * print_to_98 - Entry point
+ *
+ * @n: input
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_to_98(int n)
 {
-    return (0);
+	putchar(n);
 }
