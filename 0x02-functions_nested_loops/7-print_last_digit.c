@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_last_digit - Entry point
- * i = last digit of input
+ * @i: = last digit of input
  * Return: Always 0 (Success)
  */
 int print_last_digit(int i)
