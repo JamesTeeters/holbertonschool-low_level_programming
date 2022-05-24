@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- * main - Entry point
+ * _abs - Entry point
+ *
+ * @i: set to absolute value
  *
  * Return: Always 0 (Success)
  */
 int _abs(int i)
-{       
+{
 	if (i >= 0)
 	{
 		return (i);
@@ -13,5 +15,5 @@ int _abs(int i)
 	else
 	{
 		return (-i);
-	}	
+	}
 }
