@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * print_alphabet_10x - Entry point
  *
  * Return: Always 0 (Success)
  */
