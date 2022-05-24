@@ -7,5 +7,19 @@
  */
 int main(void)
 {
-    return (0);
+	int _islower(int c);
+	return (0);
+}
+	int _islower(int c)
+{
+	int x;
+
+	if (x >= 97 && x <= 122)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
