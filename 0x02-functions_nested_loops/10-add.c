@@ -8,7 +8,7 @@
  *
  * Return: Always 0 (Success)
  */
-int add(int a, int a)
+int add(int a, int b)
 {
 	_putchar(a);
 	_putchar(b);
