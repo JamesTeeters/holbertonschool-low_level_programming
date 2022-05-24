@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_sign - Entry point
+ *
+ * @n: = input variable
  *
  * Return: Always 0 (Success)
  */
@@ -16,9 +18,7 @@ int print_sign(int n)
 		_putchar(45);
 		return (-1);
 	}
-	if (n == 0)
-	{
-		_putchar('0');
-		return (0);
-	}
+	_putchar(48);
+	return (0);
+
 }
