@@ -10,7 +10,5 @@
  */
 int add(int a, int b)
 {
-	_putchar(a);
-	_putchar(b);
-	return (0);
+	return (a + b);
 }
