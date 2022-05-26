@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * times_table - Entry point
  *
@@ -10,31 +11,32 @@ void times_table(void)
 	int r;
 	int p;
 
-	for (r = '0'; r < 10; r++)
+	for (r = 0; r <= 9; r++)
 	{
-		for (c = '0'; c < 10; c++)
+		for (c = 0; c <= 9; c++)
 		{
-			_putchar(c + 48);
-			_putchar(44);
-			_putchar(32);
-			_putchar(32);
-		}
-		p = r * c;
+			while (c == 0)
+			{
+				_putchar(48);
+				c++;
+			}
+			p = r * c;
 
-		_putchar(10);
-		if (p < 10)
-		{
-			_putchar(p + 48);
-			_putchar(44);
-			_putchar(32);
-			_putchar(32);
+			if (p < 10)
+			{
+				_putchar(44);
+				_putchar(32);
+				_putchar(32);
+				_putchar(p + 48);
+			}
+			if (p > 9)
+			{
+				_putchar(44);
+				_putchar(32);
+				_putchar(p / 10 + 48);
+				_putchar(p % 10 + 48);
+			}
 		}
-		else
-		{
-			_putchar(p / 10 + 48);
-			_putchar(p % 10 + 48);
-			_putchar(44);
-			_putchar(32);
-		}
+		_putchar('\n');
 	}
 }
