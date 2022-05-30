@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- *
+ * mul - multiply two intergers.
+ * @a: fist interger
+ * @b: second interger
  * Return: Always 0.
  */
-int main(void)
+int mul(int a, int b)
 {
-return (0);
+	return (a * b);
 }
