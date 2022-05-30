@@ -2,11 +2,17 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
+ * print_numbers - print the given numbers
  *
  * Return: Always 0.
  */
-int main(void)
+void print_numbers(void)
 {
-return (0);
+	int i;
+
+	for (i = 0; i <= 9; i++)
+	{
+		_putchar(i + '0');
+	}
+	_putchar('\n');
 }
