@@ -15,7 +15,7 @@ int main(void)
 	for (num = 1; num < 100; num++)
 	{
 		Fizz = num % 3 == 0;
-		Buzz = num % 5 == 0;	
+		Buzz = num % 5 == 0;
 		if (Fizz && Buzz)
 		{
 			printf("FizzBuzz ");
