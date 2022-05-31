@@ -2,27 +2,31 @@
 #include <stdio.h>
 
 /**
- * main - print Fizz for multiples of 3, Buzz for multiples of 5, and FizzBuzz for both
+ * main - print Fizz, or, Buzz, or FizzBuzz
  *
  * Return: Always 0.
  */
 int main(void)
 {
 	int num;
+	int Fizz;
+	int Buzz;
 
 	for (num = 1; num < 100; num++)
 	{
-		if (num % 3 == 0 && num % 5 == 0)
+		Fizz = num % 3 == 0;
+		Buzz = num % 5 == 0;
+		if (Fizz == true && Buzz == true)
 		{
 			printf("FizzBuzz\n");
 		}
-		else if (num % 3 == 0)
+		else if (Fizz == true)
 		{
 			printf("Fizz\n");
 		}
-		else if (num % 5 == 0)
+		else if (Buzz == true)
 		{
-			printf("Buzz\n");	
+			printf("Buzz\n");
 		}
 		else
 		{
