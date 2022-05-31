@@ -12,7 +12,7 @@ int main(void)
 	int Fizz;
 	int Buzz;
 
-	for (num = 1; num < 100; num++)
+	for (num = 1; num <= 100; num++)
 	{
 		Fizz = num % 3 == 0;
 		Buzz = num % 5 == 0;
