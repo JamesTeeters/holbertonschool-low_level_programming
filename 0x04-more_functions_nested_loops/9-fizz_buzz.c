@@ -16,15 +16,15 @@ int main(void)
 	{
 		Fizz = num % 3 == 0;
 		Buzz = num % 5 == 0;
-		if (Fizz == true && Buzz == true)
+		if (Fizz && Buzz)
 		{
 			printf("FizzBuzz\n");
 		}
-		else if (Fizz == true)
+		else if (Fizz)
 		{
 			printf("Fizz\n");
 		}
-		else if (Buzz == true)
+		else if (Buzz)
 		{
 			printf("Buzz\n");
 		}
