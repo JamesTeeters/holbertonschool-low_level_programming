@@ -12,10 +12,10 @@ int main(void)
 	int Fizz;
 	int Buzz;
 
-	for (num = 1; num <= 100; num++)
+	for (num = 1; num < 100; num++)
 	{
 		Fizz = num % 3 == 0;
-		Buzz = num % 5 == 0;
+		Buzz = num % 5 == 0;	
 		if (Fizz && Buzz)
 		{
 			printf("FizzBuzz ");
@@ -33,6 +33,7 @@ int main(void)
 		printf("%d ", num);
 		}
 	}
+	printf("Buzz");
 	printf("\n");
 	return (0);
 }
