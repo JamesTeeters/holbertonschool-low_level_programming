@@ -2,11 +2,21 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- *
+ * print square - print a x by x square wherr x is input
+ * @size: size of the square
  * Return: Always 0.
  */
-int main(void)
+void print_square(int size)
 {
-return (0);
+	int row;
+	int colomn;
+
+	for (colomn = 0; colomn < size; colomn++)
+	{
+		for (row = 0; row < size; row++)
+		{
+			_putchar('#');
+		}
+		_putchar('\n');
+	}
 }
