@@ -18,20 +18,21 @@ int main(void)
 		Buzz = num % 5 == 0;
 		if (Fizz && Buzz)
 		{
-			printf("FizzBuzz\n");
+			printf("FizzBuzz ");
 		}
 		else if (Fizz)
 		{
-			printf("Fizz\n");
+			printf("Fizz ");
 		}
 		else if (Buzz)
 		{
-			printf("Buzz\n");
+			printf("Buzz ");
 		}
 		else
 		{
-		printf("%d\n", num);
+		printf("%d ", num);
 		}
 	}
+	printf("\n");
 	return (0);
 }
