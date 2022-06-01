@@ -2,11 +2,37 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- *
+ * print_triangle - print a triangle in term
+ * @size: how large the triangle will be
  * Return: Always 0.
  */
-int main(void)
+void print_triangle(int size)
 {
-return (0);
+	int space;
+	int nonspace;
+	int height;
+
+	if (size > 0)
+	{
+		for (height = 1; height <= size; height++)
+		{
+			space = size - height;
+			while (space > 0)
+			{
+				_putchar(' ');
+				space--;
+			}
+			nonspace = height;
+			while (nonspace > 0)
+			{
+				_putchar('#');
+				nonspace--;
+			}
+			_putchar('\n');
+		}
+	}
+	else
+	{
+		_putchar('\n');
+	}
 }
