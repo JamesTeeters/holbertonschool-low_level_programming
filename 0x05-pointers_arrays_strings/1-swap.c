@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update int to 98 using pointer
+ * swap_int - swap interger value
  *
- * @*n: interger input
- *
+ * @a: first input
+ * @b: second input
  */
-void reset_to_98(int *n)
+void swap_int(int *a, int *b)
 {
-	
+
 }

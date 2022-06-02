@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update int to 98 using pointer
+ * *_strcpy - copy string in pointer
  *
- * @*n: interger input
+ * @src: input
+ * @dest: input
  *
+ * Return: Always 0.
  */
-void reset_to_98(int *n)
+char *_strcpy(char *dest, char *src)
 {
-	
+
 }

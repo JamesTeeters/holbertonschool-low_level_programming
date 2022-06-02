@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update int to 98 using pointer
+ * rev_string - reverse string
  *
- * @*n: interger input
+ * @s: interger input
  *
  */
-void reset_to_98(int *n)
+void rev_string(char *s)
 {
-	
+
 }

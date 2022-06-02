@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update int to 98 using pointer
- *
- * @*n: interger input
+ * print_array - print an array
+ * @a: input 1
+ * @n: input 2
  *
  */
-void reset_to_98(int *n)
+void print_array(int *a, int n)
 {
-	
+
 }

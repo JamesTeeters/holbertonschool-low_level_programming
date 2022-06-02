@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update int to 98 using pointer
+ * _puts - check code
  *
- * @*n: interger input
+ * @str: interger input
  *
  */
-void reset_to_98(int *n)
+void _puts(char *str)
 {
-	
+
 }

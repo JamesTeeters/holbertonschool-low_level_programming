@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update int to 98 using pointer
+ *_strlen - return length of string
  *
- * @*n: interger input
+ * @s: interger input
  *
+ * Return: Always 0.
  */
-void reset_to_98(int *n)
+int _strlen(char *s)
 {
-	
+
 }
