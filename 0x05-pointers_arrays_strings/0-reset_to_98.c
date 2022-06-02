@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - update int to 98 using pointer
  *
- * @*n: interger input
+ * @n: interger input
  *
  */
 void reset_to_98(int *n)
