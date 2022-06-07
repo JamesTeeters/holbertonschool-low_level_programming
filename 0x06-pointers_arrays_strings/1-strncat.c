@@ -4,11 +4,28 @@
  * _strncat - concatenate again
  * @dest: fist string
  * @src: second string
- * @n; first interger
+ * @n: length of src
  *
- * Return: concatenated string 
+ * Return: concatenated string
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	return (src);
+	int i, j;
+	
+	i = 0;
+	while (dest[i])
+	{
+		i++;
+	}
+	for (j = 0; j < n; j++)
+	{
+		if (src[j])
+		{
+			dest[i] = src[j];
+			i++;
+		}
+		else
+			break;
+	}
+	return (dest);
 }
