@@ -10,6 +10,9 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-
-	return (needle);
+	for (;; haystack++)
+		for (;; needle++)
+			if (*needle == *haystack)
+				return (needle);
+	return ('\0');
 }
