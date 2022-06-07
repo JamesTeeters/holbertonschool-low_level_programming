@@ -28,7 +28,7 @@ int main(void)
 	{
 		if (i % 10)
 		{
-			printf(" ")
+			printf(" ");
 		}
 		if (!(i % 10) && i)
 		{

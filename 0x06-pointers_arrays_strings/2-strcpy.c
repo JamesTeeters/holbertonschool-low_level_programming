@@ -1,9 +1,0 @@
-#include "holberton.h"
-
-/**
- * p
- */
-
-{
-
-}
