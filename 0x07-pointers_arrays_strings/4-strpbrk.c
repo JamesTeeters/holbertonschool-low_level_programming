@@ -8,10 +8,11 @@
  * Return: characters of given bytes or null if not found
  */
 char *_strpbrk(char *s, char *accept)
-{		
-	while (*s++)
+{
+	for (;; s++)
+	
 	{
-		while (*accept++)
+		for(;; accept++)	
 		{
 			if (*s == *accept)
 			{
