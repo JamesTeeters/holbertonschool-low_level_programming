@@ -2,17 +2,19 @@
 
 /**
  * cap_string - capilalize all words in a string
+ * @s: input string
  *
+ * Return: cap
  */
 char *cap_string(char *s)
 {
-	int i;
+	int i = 0;
 
 	while (s[i])
 	{
 		if (i == 0 && (s[i] >= 'a' && s[i] <= 'z'))
 		{
-			s[i] = s[i] - 32;
+			s[i] -= 32;
 		}
 		switch (s[i])
 		{
@@ -29,9 +31,9 @@ char *cap_string(char *s)
 			case ')':
 			case '{':
 			case '}':
-				if (s[i + 1] <= 'a' && s[i + 1] <= 'z')
+				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
 				{
-					s[i] -= 32;
+					s[i +1] -= 32;
 				}
 		}
 		i++;
