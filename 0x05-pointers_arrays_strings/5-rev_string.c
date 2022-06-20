@@ -17,13 +17,10 @@ void rev_string(char *s)
 		p++;
 	}
 	p = p - 1;
-	for (x = 0; x <= p; x++)
+	while (p >= 0)
 	{
-		p--;
-		tmp = s[p];
-		s[p] = s[x];
-		s[x] = tmp;
+		s = tmp
+
 	}
-	*s = s[x];
 
 }
