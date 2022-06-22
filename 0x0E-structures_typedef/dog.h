@@ -8,4 +8,7 @@ struct dog
 	char *owner;
 };
 /*end of structure*/
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+/*end of prototypes*/
 #endif/*DOG_H*/
