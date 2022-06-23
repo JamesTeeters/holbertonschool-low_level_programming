@@ -2,7 +2,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main
+ * int_index - search for an interger.
+ * @array: input array.
+ * @size: size fo array.
+ * @cmp: function pointer.
  *
+ * Return: index of array wher einterger is found.
  */
+int int_index(int *array, int size, int (*cmp)(int))
+{
+	int i;
 
+	if (array == NULL || cmp == NULL)
+		return (-1);
+	if (size <= 0)
+		return (-1);
+
+	for (i = 0; i < size; i++)
+	{
+		cmp(array[i]);
+		if (cmp != 0)
+			return (i);
+		else
+			return (-1);
+	}
+	return (0);
+}
