@@ -12,7 +12,7 @@ int (*get_op_func(char *s))(int, int)
 {
 	int i;
 
-	op_t op[] = {
+	op_t ops[] = {
 		{"+", op_add},
 		{"-", op_sub},
 		{"*", op_mul},
@@ -21,9 +21,9 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL}
 	};
 
-	for (i = 0; op[i].op != NULL; i++)
+	for (i = 0; ops[i].op != NULL; i++)
 	{
-		if (strcmp(op[i].op, s) == 0)
+		if (strcmp(ops[i].op, s) == 0)
 			return (op[i].f);
 	}
 
