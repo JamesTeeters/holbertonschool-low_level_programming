@@ -2,7 +2,10 @@
 #define MAIN_H
 /*end of include guard*/
 
+#include <stdio.h>
+#include <string.h>
 /*prototypes*/
+int _power(int a, int b);
 int _putchar(char c);
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
