@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  * pop_listint - remove head node.
  * @head: first node in list.
@@ -14,7 +14,7 @@ int pop_listint(listint_t **head)
 		return (0);
 
 	tmp_node = *head; /*set node to head node*/
-	data = tmp_node->data; /*store data from node*/
+	data = tmp_node->n; /*store data from node*/
 	*head = tmp_node->next; /*move the haed to the next node*/
 	free(tmp_node); /*delete node*/
 
