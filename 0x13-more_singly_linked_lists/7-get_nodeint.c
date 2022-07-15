@@ -2,7 +2,7 @@
 /**
  * get_nodeint_at_index - function that returns the nth node of a list.
  * @head: first node.
- * #index: node to be grabed.
+ * @index: node to be grabed.
  *
  * Return: the nth node.
  */
